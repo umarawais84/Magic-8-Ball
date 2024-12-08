@@ -1,0 +1,28 @@
+body {
+    background-color: #2490a3; /* Light blue background */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #212529; /* Dark header/footer */
+}
+
+#response-img {
+    width: 300px;
+    height: 300px;
+    transition: transform 0.6s ease-in-out; /* animation */
+}
+
+#response-img:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+
+p {
+    color: #fff;
+    margin: 10px auto;
+}
+
+button {
+    margin-top: 10px;
+}
