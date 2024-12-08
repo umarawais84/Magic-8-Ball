@@ -22,17 +22,22 @@
         <header class="bg-dark text-white text-center py-3">
             <h1>Welcome to the Magic 8-Ball</h1>
         </header>
-        <main>
-            <div id=" magic-8-ball">
-                <p id="greeting">
-
+        <main class="container text-center my-5">
+            <div id="magic-8-ball">
+                <p id="greeting" class="fs-4 mb-4"></p>
+                <p id="response-text" class="mb-4">
+                    Ask a question to the most glorious 8 Ball of wisdom...
                 </p>
-                <p id="response-text">
-                    Ask a questions to the most glorious 8 ball of wisdom...
-                </p>
-                <img id="response-img" src="https://picsum.photos/id/684/600/400" alt="Lorem Picsum">
-                <button onclick="shakeMagic8Ball()" class="btn btn-success"> Click to shake the 8-ball </button>
-
+                <img
+                    id="response-img"
+                    src="https://via.placeholder.com/300"
+                    alt="Magic 8 Ball"
+                    class="rounded-circle shadow-lg mb-4"
+                />
+                <br />
+                <button onclick="shakeMagic8Ball()" class="btn btn-success btn-lg">
+                    Click to shake the 8 Ball
+                </button>
             </div>
         </main>
         <footer class="bg-dark text-white text-center py-3">
